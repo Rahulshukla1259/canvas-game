@@ -372,7 +372,7 @@ function animate() {
   context.drawImage(image, 0, 0, canvas.width, canvas.height);
   context.drawImage(imageNavbar1, 0, 0, canvas.width, 80);
 
-  context.drawImage(playerImage, player.x, 490, 40, 40);
+  context.drawImage(playerImage, player.x, 470, 40, 40);
   context.fillStyle = "yellow";
   context.font = "40px monospace";
 
@@ -381,7 +381,7 @@ function animate() {
   context.fillStyle = "WHITE";
   context.font = "20px monospace";
 
-  context.fillText(`SCORE:${score}`, 1300, 50, 200);
+  context.fillText(`SCORE:${score}`, 1400, 50, 200);
 
  //enemeis
  
