@@ -309,7 +309,7 @@ let enemyarr = [];
 
 for (let i = 0; i <= 20; i++) {
   const enemy = {
-    x: i * 78,
+    x: i * 70,
   };
 
   enemyarr.push(enemy);
@@ -381,7 +381,7 @@ function animate() {
   context.fillStyle = "WHITE";
   context.font = "20px monospace";
 
-  context.fillText(`SCORE:${score}`, 1400, 50, 200);
+  context.fillText(`SCORE:${score}`, 1100, 50, 200);
 
  //enemeis
  
