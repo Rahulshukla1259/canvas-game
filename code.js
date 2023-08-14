@@ -372,7 +372,7 @@ function animate() {
   context.drawImage(image, 0, 0, canvas.width, canvas.height);
   context.drawImage(imageNavbar1, 0, 0, canvas.width, 80);
 
-  context.drawImage(playerImage, player.x, 470, 40, 40);
+  context.drawImage(playerImage, player.x, 430, 40, 40);
   context.fillStyle = "yellow";
   context.font = "40px monospace";
 
