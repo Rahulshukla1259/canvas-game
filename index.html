@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <dialog id="showScore">
+        <h1>YOUR SCORE</h1>
+        <h2>200</h2>
+
+       <button id="btn">Play Again !!</button>
+
+    </dialog>
+   
+    <canvas id="canvas">
+
+        
+    </canvas>
+    <script src="code.js"></script>
+</body>
+<style>
+    
+    body{
+
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+       max-zoom: unset;
+
+       font-family: monospace;
+    }
+
+    h1{
+        margin-left: 80px;
+
+    }
+
+    h2{
+        margin-left: 140px;
+    }
+
+    
+
+    #showScore{
+        height: 150px;
+        width: 300px;
+        position: absolute;
+        border-radius: 8px;
+        top: 20%;
+        left: 20%;
+        transform: translate(-50%,-50%);
+
+        overflow: hidden;
+
+        justify-content: center;
+
+        align-items: center;
+
+        z-index: 100;
+        background-color: cadetblue;
+    }
+
+    #showScore::backdrop{
+
+        background: linear-gradient(rgb(103, 46, 46),rgb(47, 47, 107),rgb(49, 116, 49));
+    }
+
+    #btn{
+
+      margin-left: 90px; 
+      
+      padding: 8px;
+      width: 130px;
+}
+
+#btn:hover{
+
+    background-color: darkslategrey;
+
+    color: bisque;
+
+    transform: scale(1.1);
+
+    border-radius: 5px;
+}
+</style>
+</html>
